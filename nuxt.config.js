@@ -1,3 +1,5 @@
+import ruDictionary from './locales/ru/all';
+import enDictionary from './locales/en/all';
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -36,9 +38,31 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/i18n',
+
   ],
+
+  i18n: {
+    locales: ['en', 'ru'],
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        en: enDictionary,
+        ru: ruDictionary,
+      }
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    loaders: {
+      sass: {
+        implementation: require('sass'),
+      },
+      scss: {
+        implementation: require('sass'),
+      },
+    },
   }
 }
