@@ -3,7 +3,9 @@ import enDictionary from './locales/en/all';
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  router: {
+    base: '/nuxt-demo/'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'partnerka-nuxt-demo',
