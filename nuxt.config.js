@@ -45,6 +45,7 @@ export default {
   ],
 
   i18n: {
+    vueI18nLoader: true,
     locales: ['en', 'ru'],
     defaultLocale: 'en',
     vueI18n: {
