@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/contests/africa", {data:[{}],fetch:{},mutations:void 0});
