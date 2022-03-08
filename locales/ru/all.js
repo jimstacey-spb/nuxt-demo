@@ -3,6 +3,7 @@ export default {
   "about": "О нас",
   "contests": "Конкурсы",
   "events": "Мероприятия",
+  "compare": "Comparison table",
   "html_head_title": "Глагне - HTML Meta Tag",
   "html_meta_description": "Новая главная страница",
   "title": "Глагне",

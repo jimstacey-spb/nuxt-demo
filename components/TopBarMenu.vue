@@ -24,6 +24,11 @@ export default {
           i18nKey: 'events',
           dataTest: "menu_contests"
         },
+        {
+          url: '/compare',
+          i18nKey: 'compare',
+          dataTest: "menu_contests"
+        },
       ]
     }
   }

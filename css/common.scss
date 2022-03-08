@@ -47,3 +47,19 @@ body {
     }
   }
 }
+
+.compare-page {
+  max-width: 1200px;
+  overflow: scroll;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  th, td {
+    border: 1px #777 solid;
+    padding: 1em;
+  }
+}

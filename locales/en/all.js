@@ -3,6 +3,7 @@ export default {
   "about": "About",
   "contests": "Contest",
   "events": "Events",
+  "compare": "Comparison table",
   "html_head_title" : "Main page - HTML Meta Tag",
   "html_meta_description" : "New main page",
   "title": "Main page",
